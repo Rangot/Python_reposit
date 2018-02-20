@@ -24,8 +24,7 @@ class MyApp(App):
         on_press = self.btn_press,
         background_color = [.62, .88, .88, 1],
         background_normal = '',
-        size_hint = (.5, .25),
-        pos = (640/2 - 160, 480/2 - (480*.25/2))));
+        size_hint = (.5, .25)))
         
         return s
         
